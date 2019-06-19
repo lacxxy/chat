@@ -1,0 +1,9 @@
+Fri, 17 May 2019 09:06:05 GMT morgan deprecated morgan(options): use morgan("default", options) instead at index.js:18:9
+Fri, 17 May 2019 09:06:05 GMT morgan deprecated default format: use combined format at index.js:18:9
+(node:7678) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+listening on *:3005
+[0mGET /getchatlist?name=admin [36m304 [0m34.302 ms - -[0m
+[0mGET /getmes?name1=admin&name2=liuxiang [36m304 [0m7.255 ms - -[0m
+[0mGET /getmes?name1=admin&name2=%E5%BC%A0%E4%B8%89 [36m304 [0m2.565 ms - -[0m
+[0mGET /getmes?name1=admin&name2=liuxiang [36m304 [0m2.445 ms - -[0m
+[0mGET /getmes?name1=admin&name2=%E5%BC%A0%E4%B8%89 [36m304 [0m2.433 ms - -[0m
